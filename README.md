@@ -2,9 +2,13 @@
 
 - Clone the repository in your system.
 
-- Create a virtual environment and activate it.
+- Recommend python version:  Python 3.8.5
+
+- Create a virtual environment and activate it. 
 
 - Then install the required modules using : `pip install -r requirement.txt`.
+
+- Please add MapQuest API Key as `MAP_QUEST_KEY` in system varibles/environment variables
 
 - Start the python server using: `python manage.py runserver`.
 
