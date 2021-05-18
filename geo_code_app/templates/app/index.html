@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Geo Code App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <script>
+            function checkFileFormat(domEle){
+                console.log("domEle",domEle)
+                let validExts = [".xlsx", ".xls"];
+                let fileName = domEle.value;
+                let fileExt = fileName.substring(fileName.lastIndexOf('.'));
+                if (!validExts.includes(fileExt)) {
+                    $(domEle).siblings(".custom-file-label").addClass("selected").html('Choose file');
+                    alert("Invalid file selected, valid files are of " +
+                            validExts.toString() + " types.");
+                    return false;
+                }else{
+                    $(domEle).siblings(".custom-file-label").addClass("selected").html(fileName);
+                    return true;
+                }
+            }
+        </script>
+            
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Geo Code App</a>
+          </nav>
+          <div class="d-flex justify-content-center align-items-center container h-100 ">
+            <div  class="row">
+                <div style=" padding: 81px; border: 2px solid;">
+                    <div style="padding: 10px;">
+                        <u><h6>Please upload Excel file here & get file with Latitude & Longitude</h6></u>
+                    </div>
+                    <form action="/" method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <div class="custom-file">
+                                <input type="file"  accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"   class="custom-file-input" name="input_file" onchange="checkFileFormat(this);" required>
+                                <label class="custom-file-label" for="customFile">Choose file</label>
+                            </div>
+                        </div>
+                        <div style="padding: 10px;">
+                            <span><a href="/static/sample_input_file.xlsx" >click here </a> to download sample input file</span>
+                        </div>
+                        <div class="form-group" style="float: right;">
+                            <button type="submit" class="btn btn-primary form-btn" >Submit & Download</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+          </div>
+    </body>
+</html>
