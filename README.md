@@ -14,6 +14,16 @@
 
 - Go to `localhost:8000` 
 
+
+
+
+### Features
 - upload the sample_input_file.xlsx file which has only column with addresses without headers.
 
-- Then click on Submit & Download button, then the output file will be downloaded with address, latitude & longitude.
+- Then click on Submit & Download button, then the output file will be downloaded with address, 
+latitude & longitude.
+
+#### Adding Product
+![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/screencapture-localhost-8000-2021-06-02-18_17_25.png)
+
+## Happy learning!!!
