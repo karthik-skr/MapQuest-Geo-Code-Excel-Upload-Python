@@ -27,10 +27,10 @@ latitude & longitude.
 ![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/screencapture-localhost-8000-2021-06-02-18_17_25.png)
 
 #### Sample Input Excel file
-![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/input.png)
+![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/input.PNG)
 
 
 #### Sample Input Excel file
-![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/output.png)
+![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/output.PNG)
 
 ## Happy learning!!!
