@@ -26,4 +26,11 @@ latitude & longitude.
 #### Home Page
 ![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/screencapture-localhost-8000-2021-06-02-18_17_25.png)
 
+#### Sample Input Excel file
+![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/sample_input_file.xlsx)
+
+
+#### Sample Input Excel file
+![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/output.xlsx)
+
 ## Happy learning!!!
