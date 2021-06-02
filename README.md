@@ -6,7 +6,7 @@
 
 - Create a virtual environment and activate it. 
 
-- Then install the required modules using : `pip install -r requirement.txt`.
+- Then install the required modules using : `pip install -r requirements.txt`.
 
 - Please add MapQuest API Key as `MAP_QUEST_KEY` in system varibles/environment variables
 
