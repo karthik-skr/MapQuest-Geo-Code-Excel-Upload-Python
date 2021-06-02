@@ -23,7 +23,7 @@
 - Then click on Submit & Download button, then the output file will be downloaded with address, 
 latitude & longitude.
 
-#### Adding Product
+#### Home Page
 ![adding](https://github.com/karthik-skr/MapQuest-Geo-Code-Excel-Upload-Python-Django/blob/main/readme_images/screencapture-localhost-8000-2021-06-02-18_17_25.png)
 
 ## Happy learning!!!
